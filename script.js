@@ -170,10 +170,6 @@ seri.append("g")
     .attr("cy", d => y(d.y))
     .attr("r", 3)
 
-
-
-
-
 function updateAxes () {
     axes.call(viewportAxes(viewport, currentXScale, currentYScale))
 }
